@@ -1,6 +1,6 @@
 # Data Analytics Pipeline
 
-**Author:** Gurpreet Singh (gsingh)  
+**Author:** Gunaj Singh (gsingh)  
 **Built with:** Python 3.12 | pandas | matplotlib | seaborn
 
 A comprehensive Python-based ETL (Extract, Transform, Load) pipeline for data analytics and reporting. This project demonstrates data engineering best practices including modular architecture, data validation, and automated report generation.
