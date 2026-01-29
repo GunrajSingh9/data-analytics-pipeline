@@ -1,0 +1,23 @@
+# Data Analytics Pipeline Configuration
+
+# Data source settings
+ingestion:
+  default_encoding: utf-8
+  date_format: "%Y-%m-%d"
+
+# Transformation settings  
+transformation:
+  remove_duplicates: true
+  handle_missing: "drop"
+  
+# Reporting settings
+reporting:
+  output_dir: "reports"
+  chart_style: "whitegrid"
+  figure_size: [10, 6]
+  dpi: 300
+
+# Pipeline defaults
+pipeline:
+  verbose: true
+  log_level: "INFO"
